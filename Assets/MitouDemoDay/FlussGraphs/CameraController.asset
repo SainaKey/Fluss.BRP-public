@@ -1,0 +1,900 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea70e9dd6bc0e024ea9c005244188e20, type: 3}
+  m_Name: CameraController
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 7389483435559747810
+  - rid: 7389483435559747811
+  - rid: 7389483435559747812
+  - rid: 7389483435559747813
+  - rid: 7389483435559747814
+  - rid: 7389483435559747815
+  - rid: 7389483435559747816
+  - rid: 7389483435559747817
+  - rid: 7389483435559747818
+  - rid: 7389483435559747954
+  - rid: 7389483435559747955
+  - rid: 7389483435559747956
+  - rid: 7389483435559748194
+  - rid: 7389483435559748195
+  - rid: 7389483435559748281
+  - rid: 7389483435559748340
+  - rid: 7389483435559748341
+  - rid: 7389483435559748342
+  - rid: 7389483437457670198
+  - rid: 7389483437457670199
+  - rid: 7389483437457670200
+  - rid: 7389483437457670201
+  - rid: 7389483437457670202
+  - rid: 7389483437457670203
+  edges:
+  - GUID: b0158044-8a60-461d-985b-43ba83e57ad4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 014d3aa5-7068-43b1-9084-ed7cd2ec2e9d
+    outputNodeGUID: 8a4b70ce-80ef-4058-8dc4-de953762a669
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 6d9138d8-4a3b-402e-b09f-ee2bdca49d07
+    owner: {fileID: 11400000}
+    inputNodeGUID: e034df01-ad18-43f0-acbf-dceacd37f562
+    outputNodeGUID: 8a4b70ce-80ef-4058-8dc4-de953762a669
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: f44bf2dc-59b2-43ab-861d-8bc2e69a9b71
+    owner: {fileID: 11400000}
+    inputNodeGUID: 86496ded-b42a-459b-8ab9-5a90fa51e6e5
+    outputNodeGUID: 75e10c25-127a-44ba-9a08-9cb04c30f66e
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 55858cdc-1968-4dbd-b910-c6c1bbff48d0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 83c23009-a69a-4535-aa99-b868583fc544
+    outputNodeGUID: 75e10c25-127a-44ba-9a08-9cb04c30f66e
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 12a815cf-7809-4f26-b0b5-af17d3412abd
+    owner: {fileID: 11400000}
+    inputNodeGUID: b26ae813-09ef-41bd-8cc8-3fd014380ebc
+    outputNodeGUID: d33a27e0-da53-4962-a5f2-b3b89c32576b
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 8bd06aea-b458-4076-b239-3b14ebfb0f9d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 145f46a8-d016-4bf3-ac0c-dc6edc190ab3
+    outputNodeGUID: d33a27e0-da53-4962-a5f2-b3b89c32576b
+    inputFieldName: virtualCamera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: a0560524-d0fb-43e7-899d-607810c10862
+    owner: {fileID: 11400000}
+    inputNodeGUID: b297c9fe-0aea-44ef-89c5-5833f5be0364
+    outputNodeGUID: dab654e3-e6fe-4ec0-b3dc-779e2050af6a
+    inputFieldName: gameObject
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 6c8f4a67-ffd6-4459-9caa-4cc4b9962d3b
+    owner: {fileID: 11400000}
+    inputNodeGUID: b297c9fe-0aea-44ef-89c5-5833f5be0364
+    outputNodeGUID: 2e59f0ae-f3a1-4714-bd43-6fac80aeff91
+    inputFieldName: triggerSubject
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f9c65341-9797-4413-9dd1-9239f85f682f
+    owner: {fileID: 11400000}
+    inputNodeGUID: fcfa81d5-2f6a-4d18-93ae-a36f2b62f42a
+    outputNodeGUID: 5f49c845-5eb7-4a7f-9072-39512403984e
+    inputFieldName: gameObject
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: be1bf31a-5cf8-4a9b-ac06-7acd8b124ec7
+    owner: {fileID: 11400000}
+    inputNodeGUID: fcfa81d5-2f6a-4d18-93ae-a36f2b62f42a
+    outputNodeGUID: 25e6cc70-c607-4a9b-96be-3f1c6af10a7b
+    inputFieldName: x
+    outputFieldName: x
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 55bd554f-dcef-456c-93af-5e0386ad0490
+    owner: {fileID: 11400000}
+    inputNodeGUID: fcfa81d5-2f6a-4d18-93ae-a36f2b62f42a
+    outputNodeGUID: 25e6cc70-c607-4a9b-96be-3f1c6af10a7b
+    inputFieldName: y
+    outputFieldName: y
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ef341f6f-f8a4-4749-a3b4-5a5b4aa02b67
+    owner: {fileID: 11400000}
+    inputNodeGUID: fcfa81d5-2f6a-4d18-93ae-a36f2b62f42a
+    outputNodeGUID: 25e6cc70-c607-4a9b-96be-3f1c6af10a7b
+    inputFieldName: z
+    outputFieldName: z
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f26c1973-0d00-4775-bade-565ad60ce1da
+    owner: {fileID: 11400000}
+    inputNodeGUID: e35f0073-15c8-4b6f-a72c-3856c762301b
+    outputNodeGUID: 0156ae21-d05d-427a-a736-02f8ff4e0bff
+    inputFieldName: gameObject
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 82ba3eeb-3b35-48d0-9a34-a039a31cadd4
+    owner: {fileID: 11400000}
+    inputNodeGUID: e35f0073-15c8-4b6f-a72c-3856c762301b
+    outputNodeGUID: 3a8c49e2-b80f-47bd-9c86-fbf2cf18bf72
+    inputFieldName: x
+    outputFieldName: x
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 21a6dcbe-d6a0-4976-906b-c74fe7d46919
+    owner: {fileID: 11400000}
+    inputNodeGUID: e35f0073-15c8-4b6f-a72c-3856c762301b
+    outputNodeGUID: 3a8c49e2-b80f-47bd-9c86-fbf2cf18bf72
+    inputFieldName: y
+    outputFieldName: y
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0cffff66-1424-43cc-9d1d-be65918024bf
+    owner: {fileID: 11400000}
+    inputNodeGUID: e35f0073-15c8-4b6f-a72c-3856c762301b
+    outputNodeGUID: 3a8c49e2-b80f-47bd-9c86-fbf2cf18bf72
+    inputFieldName: z
+    outputFieldName: z
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 75271869-f992-40ae-a4c3-fff8b916e34f
+    owner: {fileID: 11400000}
+    inputNodeGUID: 26266376-886e-4490-a01d-0375bd6a966d
+    outputNodeGUID: 74a8eebd-c112-4035-ac3c-d7f7dc04f794
+    inputFieldName: button
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 14bbed99-23cf-45f5-9e94-d6a54f078cf0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9da82889-d7c2-471e-830e-4ebb48a0acb7
+    outputNodeGUID: 8ccb06fc-6ae8-4f87-afb1-2809f75d44fc
+    inputFieldName: button
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 641c7493-85f1-4f73-938f-5c34554b6350
+    owner: {fileID: 11400000}
+    inputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    outputNodeGUID: ca911dd5-387f-4909-8fbf-38e6afb56c3e
+    inputFieldName: button
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 8c57fba3-cc88-4b5c-bec3-753fcb9357b5
+    owner: {fileID: 11400000}
+    inputNodeGUID: e034df01-ad18-43f0-acbf-dceacd37f562
+    outputNodeGUID: 26266376-886e-4490-a01d-0375bd6a966d
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f0195b3c-b150-40a8-95d6-2abff6f9614f
+    owner: {fileID: 11400000}
+    inputNodeGUID: 86496ded-b42a-459b-8ab9-5a90fa51e6e5
+    outputNodeGUID: 26266376-886e-4490-a01d-0375bd6a966d
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 738c51d6-c77d-4cc2-a958-ed5755977ecf
+    owner: {fileID: 11400000}
+    inputNodeGUID: b26ae813-09ef-41bd-8cc8-3fd014380ebc
+    outputNodeGUID: 26266376-886e-4490-a01d-0375bd6a966d
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: a26eaf25-ca8c-49fa-9bf1-f873c82b6e69
+    owner: {fileID: 11400000}
+    inputNodeGUID: 014d3aa5-7068-43b1-9084-ed7cd2ec2e9d
+    outputNodeGUID: 9da82889-d7c2-471e-830e-4ebb48a0acb7
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b7a1bc8c-ea9d-41eb-8a32-fcf97b30c1f4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 83c23009-a69a-4535-aa99-b868583fc544
+    outputNodeGUID: 9da82889-d7c2-471e-830e-4ebb48a0acb7
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4d492212-cb01-4f5b-bd69-1edf7d463986
+    owner: {fileID: 11400000}
+    inputNodeGUID: b26ae813-09ef-41bd-8cc8-3fd014380ebc
+    outputNodeGUID: 9da82889-d7c2-471e-830e-4ebb48a0acb7
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: cc09584e-c81f-453e-8c8a-2afa30807b3c
+    owner: {fileID: 11400000}
+    inputNodeGUID: 014d3aa5-7068-43b1-9084-ed7cd2ec2e9d
+    outputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: edbc9619-392e-462c-92a5-09a583f71bb4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 86496ded-b42a-459b-8ab9-5a90fa51e6e5
+    outputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 89a37fa1-d404-472f-8311-b73f07d13ff0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 145f46a8-d016-4bf3-ac0c-dc6edc190ab3
+    outputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    inputFieldName: triggerInputs
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 40f1992a-774a-4fce-92a3-a19bf5659967
+    owner: {fileID: 11400000}
+    inputNodeGUID: 25e6cc70-c607-4a9b-96be-3f1c6af10a7b
+    outputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    inputFieldName: triggerSubject
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 09cbe264-fc3e-4e6e-a585-306a7d5cc440
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3a8c49e2-b80f-47bd-9c86-fbf2cf18bf72
+    outputNodeGUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+    inputFieldName: triggerSubject
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 11
+      y: 71
+      width: 176
+      height: 273
+    opened: 1
+    editorType:
+      serializedType: Fluss.FlussParameterView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - rid: 7389483435559747738
+  - rid: 7389483435559747744
+  - rid: 7389483435559747750
+  - rid: 7389483435559747950
+  - rid: 7389483435559748190
+  - rid: 7389483435559748336
+  - rid: 7389483437457670186
+  - rid: 7389483437457670190
+  - rid: 7389483437457670194
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 666, y: -75, z: 0}
+  scale: {x: 0.57175326, y: 0.57175326, z: 1}
+  isParameterViewOpen: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 7389483435559747738
+      type: {class: CinemachineVirtualCameraParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: 00d5ed98-3b1d-4832-bd02-08eba5bcbec4
+        name: Default
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559747739
+        val: {fileID: 0}
+    - rid: 7389483435559747739
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 00d5ed98-3b1d-4832-bd02-08eba5bcbec4
+    - rid: 7389483435559747744
+      type: {class: CinemachineVirtualCameraParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: efd00c79-3ad6-426b-9a68-3b9fe7c0ab30
+        name: Rot
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559747745
+        val: {fileID: 0}
+    - rid: 7389483435559747745
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: efd00c79-3ad6-426b-9a68-3b9fe7c0ab30
+    - rid: 7389483435559747750
+      type: {class: CinemachineVirtualCameraParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: 4d397832-13cf-47d3-98fb-b6d36304fde1
+        name: Random
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559747751
+        val: {fileID: 0}
+    - rid: 7389483435559747751
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 4d397832-13cf-47d3-98fb-b6d36304fde1
+    - rid: 7389483435559747810
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 014d3aa5-7068-43b1-9084-ed7cd2ec2e9d
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 791.5502
+          y: 267.9001
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 1
+    - rid: 7389483435559747811
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 8a4b70ce-80ef-4058-8dc4-de953762a669
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 629.42615
+          y: 354
+          width: 76
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 00d5ed98-3b1d-4832-bd02-08eba5bcbec4
+        accessor: 0
+    - rid: 7389483435559747812
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: e034df01-ad18-43f0-acbf-dceacd37f562
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 806.73987
+          y: 422.79083
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 2
+    - rid: 7389483435559747813
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 75e10c25-127a-44ba-9a08-9cb04c30f66e
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 669.35156
+          y: 619.3803
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: efd00c79-3ad6-426b-9a68-3b9fe7c0ab30
+        accessor: 0
+    - rid: 7389483435559747814
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 86496ded-b42a-459b-8ab9-5a90fa51e6e5
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 827.12286
+          y: 557.5
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 1
+    - rid: 7389483435559747815
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 83c23009-a69a-4535-aa99-b868583fc544
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: 842.12286
+          y: 712.5
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 2
+    - rid: 7389483435559747816
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: b26ae813-09ef-41bd-8cc8-3fd014380ebc
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: 864.0001
+          y: 848.25
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 1
+    - rid: 7389483435559747817
+      type: {class: SetPriority, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 145f46a8-d016-4bf3-ac0c-dc6edc190ab3
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: 879.0001
+          y: 1003.25006
+          width: 114
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        virtualCamera: {fileID: 0}
+        priority: 2
+    - rid: 7389483435559747818
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: d33a27e0-da53-4962-a5f2-b3b89c32576b
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: 687.8261
+          y: 954.78265
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 4d397832-13cf-47d3-98fb-b6d36304fde1
+        accessor: 0
+    - rid: 7389483435559747950
+      type: {class: GameObjectParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: b61340ac-2071-4308-84f1-5180e4e2ea76
+        name: RotAxis
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559747951
+        val: {fileID: 0}
+    - rid: 7389483435559747951
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: b61340ac-2071-4308-84f1-5180e4e2ea76
+    - rid: 7389483435559747954
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: dab654e3-e6fe-4ec0-b3dc-779e2050af6a
+        computeOrder: 15
+        position:
+          serializedVersion: 2
+          x: 662
+          y: 1216.0945
+          width: 78
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: b61340ac-2071-4308-84f1-5180e4e2ea76
+        accessor: 0
+    - rid: 7389483435559747955
+      type: {class: AddRotation, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: b297c9fe-0aea-44ef-89c5-5833f5be0364
+        computeOrder: 17
+        position:
+          serializedVersion: 2
+          x: 862.121
+          y: 1173.7505
+          width: 113
+          height: 171
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        gameObject: {fileID: 0}
+        x: 0
+        y: 0.03
+        z: 0
+    - rid: 7389483435559747956
+      type: {class: UpdateNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 2e59f0ae-f3a1-4714-bd43-6fac80aeff91
+        computeOrder: 16
+        position:
+          serializedVersion: 2
+          x: 654.43854
+          y: 1270
+          width: 115
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 7389483435559748190
+      type: {class: GameObjectParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: b33ad04e-733b-44aa-ab86-5e6a2d2a4b80
+        name: RandomAxis
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559748191
+        val: {fileID: 0}
+    - rid: 7389483435559748191
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: b33ad04e-733b-44aa-ab86-5e6a2d2a4b80
+    - rid: 7389483435559748194
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 5f49c845-5eb7-4a7f-9072-39512403984e
+        computeOrder: 18
+        position:
+          serializedVersion: 2
+          x: 645.8053
+          y: 1475
+          width: 103
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: b33ad04e-733b-44aa-ab86-5e6a2d2a4b80
+        accessor: 0
+    - rid: 7389483435559748195
+      type: {class: RandomVector3, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 25e6cc70-c607-4a9b-96be-3f1c6af10a7b
+        computeOrder: 19
+        position:
+          serializedVersion: 2
+          x: 580.31757
+          y: 1511.6389
+          width: 134
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 360, z: 0}
+    - rid: 7389483435559748281
+      type: {class: TweenRotation, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: fcfa81d5-2f6a-4d18-93ae-a36f2b62f42a
+        computeOrder: 20
+        position:
+          serializedVersion: 2
+          x: 813.2212
+          y: 1454.0283
+          width: 221
+          height: 187
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        gameObject: {fileID: 0}
+        ease: 2
+        duration: 0.2
+    - rid: 7389483435559748336
+      type: {class: GameObjectParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: 4785e93d-5652-403d-b540-08ea8ec28a5c
+        name: RandomCameraObj
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559748337
+        val: {fileID: 0}
+    - rid: 7389483435559748337
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 4785e93d-5652-403d-b540-08ea8ec28a5c
+    - rid: 7389483435559748340
+      type: {class: TweenPosition, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: e35f0073-15c8-4b6f-a72c-3856c762301b
+        computeOrder: 23
+        position:
+          serializedVersion: 2
+          x: 825.2174
+          y: 1661.7391
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        gameObject: {fileID: 0}
+        ease: 2
+        duration: 0.2
+    - rid: 7389483435559748341
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 0156ae21-d05d-427a-a736-02f8ff4e0bff
+        computeOrder: 22
+        position:
+          serializedVersion: 2
+          x: 657.51624
+          y: 1709.5422
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 4785e93d-5652-403d-b540-08ea8ec28a5c
+        accessor: 0
+    - rid: 7389483435559748342
+      type: {class: RandomVector3, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 3a8c49e2-b80f-47bd-9c86-fbf2cf18bf72
+        computeOrder: 21
+        position:
+          serializedVersion: 2
+          x: 623.3043
+          y: 1747.0002
+          width: 134
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        min: {x: 0, y: 3, z: -23}
+        max: {x: 0, y: 40, z: -23}
+    - rid: 7389483437457670186
+      type: {class: ButtonParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: d26c5b73-3a18-4566-980c-6d8cc0c05800
+        name: CameraButton0
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483437457670187
+        val: {fileID: 0}
+    - rid: 7389483437457670187
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: d26c5b73-3a18-4566-980c-6d8cc0c05800
+    - rid: 7389483437457670190
+      type: {class: ButtonParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: f7ba09f5-f679-455f-83c4-7c8892bd63f7
+        name: CameraButton1
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483437457670191
+        val: {fileID: 0}
+    - rid: 7389483437457670191
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: f7ba09f5-f679-455f-83c4-7c8892bd63f7
+    - rid: 7389483437457670194
+      type: {class: ButtonParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: fb9dbab3-3171-47b5-92bb-ce6ff053d276
+        name: CameraButton2
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483437457670195
+        val: {fileID: 0}
+    - rid: 7389483437457670195
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: fb9dbab3-3171-47b5-92bb-ce6ff053d276
+    - rid: 7389483437457670198
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 74a8eebd-c112-4035-ac3c-d7f7dc04f794
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 170.43478
+          y: 388.69565
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: d26c5b73-3a18-4566-980c-6d8cc0c05800
+        accessor: 0
+    - rid: 7389483437457670199
+      type: {class: ButtonToTriggerNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 26266376-886e-4490-a01d-0375bd6a966d
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 336.52176
+          y: 347.8261
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        button: {fileID: 0}
+    - rid: 7389483437457670200
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 8ccb06fc-6ae8-4f87-afb1-2809f75d44fc
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 79.55359
+          y: 649.8108
+          width: 119
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: f7ba09f5-f679-455f-83c4-7c8892bd63f7
+        accessor: 0
+    - rid: 7389483437457670201
+      type: {class: ButtonToTriggerNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 9da82889-d7c2-471e-830e-4ebb48a0acb7
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 279.28928
+          y: 656.00006
+          width: 146
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        button: {fileID: 0}
+    - rid: 7389483437457670202
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: ca911dd5-387f-4909-8fbf-38e6afb56c3e
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 24.72779
+          y: 1622.5
+          width: 120
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: fb9dbab3-3171-47b5-92bb-ce6ff053d276
+        accessor: 0
+    - rid: 7389483437457670203
+      type: {class: ButtonToTriggerNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: c294fa83-c2bb-46b1-93f4-6916ab726748
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 239.06804
+          y: 1576.2382
+          width: 146
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        button: {fileID: 0}

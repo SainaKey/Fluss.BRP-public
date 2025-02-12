@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea70e9dd6bc0e024ea9c005244188e20, type: 3}
+  m_Name: CubeController
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 7389483435559748539
+  - rid: 7389483435559748540
+  - rid: 7389483435559748543
+  - rid: 7389483437457670366
+  - rid: 7389483437457670367
+  - rid: 7389483437457670368
+  - rid: 7389483437457670369
+  - rid: 7389483437457670376
+  edges:
+  - GUID: 16d0ea72-8eb0-4b47-a010-ddb2bf307641
+    owner: {fileID: 11400000}
+    inputNodeGUID: c400ef54-b447-491a-983f-0be5950c1c45
+    outputNodeGUID: 2c0646cb-7fa3-45c1-b279-2842d2ca7b03
+    inputFieldName: gameObject
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: f94336f9-2b18-4a1c-9165-b24e36e2614c
+    owner: {fileID: 11400000}
+    inputNodeGUID: c400ef54-b447-491a-983f-0be5950c1c45
+    outputNodeGUID: f3acfec4-5a5d-4511-9bcf-5308bc13e7c8
+    inputFieldName: triggerSubject
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4a13a5f3-c3b5-4722-875d-726de0e9dd58
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4d45a92a-ac9f-47a7-a955-0bd82234b367
+    outputNodeGUID: 5f7b0a8d-41ac-4321-840e-86267164ea4d
+    inputFieldName: gameObject
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 6192517d-9831-4ede-9eb6-49c0b7ff61b3
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4d45a92a-ac9f-47a7-a955-0bd82234b367
+    outputNodeGUID: dbcf92af-bfcc-4b71-8b9c-847c46377956
+    inputFieldName: x
+    outputFieldName: x
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c5d956fa-6493-4746-937f-35e3d4dade9e
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4d45a92a-ac9f-47a7-a955-0bd82234b367
+    outputNodeGUID: dbcf92af-bfcc-4b71-8b9c-847c46377956
+    inputFieldName: y
+    outputFieldName: y
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 275639ca-ed2a-4e44-988e-efc3760cde6a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4d45a92a-ac9f-47a7-a955-0bd82234b367
+    outputNodeGUID: dbcf92af-bfcc-4b71-8b9c-847c46377956
+    inputFieldName: z
+    outputFieldName: z
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9a5a1a31-aab3-412c-bfad-c9c3b9a45183
+    owner: {fileID: 11400000}
+    inputNodeGUID: dbcf92af-bfcc-4b71-8b9c-847c46377956
+    outputNodeGUID: 87677cd5-a46c-447d-b2f1-65c1da3a3f3f
+    inputFieldName: triggerSubject
+    outputFieldName: triggerOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 57f55238-b7e0-4b50-830e-6c227b5e15e0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 87677cd5-a46c-447d-b2f1-65c1da3a3f3f
+    outputNodeGUID: f070232b-85d1-41b5-b946-b34abbe9413c
+    inputFieldName: button
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 8
+      y: 30
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: Fluss.FlussParameterView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - rid: 7389483435559748535
+  - rid: 7389483437457670370
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 441, y: -157, z: 0}
+  scale: {x: 1.15, y: 1.15, z: 1}
+  isParameterViewOpen: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 7389483435559748535
+      type: {class: GameObjectParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: 8ba253a8-7199-450e-aa30-bd695d441b5b
+        name: CubeMonitor
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483435559748536
+        val: {fileID: 0}
+    - rid: 7389483435559748536
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 8ba253a8-7199-450e-aa30-bd695d441b5b
+    - rid: 7389483435559748539
+      type: {class: AddRotation, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: c400ef54-b447-491a-983f-0be5950c1c45
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 382
+          y: 221
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        gameObject: {fileID: 0}
+        x: 0.01
+        y: 0
+        z: 0.01
+    - rid: 7389483435559748540
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 2c0646cb-7fa3-45c1-b279-2842d2ca7b03
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 236.5
+          y: 240
+          width: 106
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 8ba253a8-7199-450e-aa30-bd695d441b5b
+        accessor: 0
+    - rid: 7389483435559748543
+      type: {class: UpdateNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: f3acfec4-5a5d-4511-9bcf-5308bc13e7c8
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 199.60262
+          y: 338.35815
+          width: 115
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 7389483437457670366
+      type: {class: TweenRotation, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 4d45a92a-ac9f-47a7-a955-0bd82234b367
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 397
+          y: 462.5
+          width: 221
+          height: 187
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        gameObject: {fileID: 0}
+        ease: 8
+        duration: 0.3
+    - rid: 7389483437457670367
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 5f7b0a8d-41ac-4321-840e-86267164ea4d
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 231
+          y: 477.5
+          width: 106
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 8ba253a8-7199-450e-aa30-bd695d441b5b
+        accessor: 0
+    - rid: 7389483437457670368
+      type: {class: RandomVector3, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: dbcf92af-bfcc-4b71-8b9c-847c46377956
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 200
+          y: 533
+          width: 134
+          height: 123
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 360, y: 360, z: 360}
+    - rid: 7389483437457670369
+      type: {class: ButtonToTriggerNode, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 87677cd5-a46c-447d-b2f1-65c1da3a3f3f
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: -19.877121
+          y: 632.36993
+          width: 146
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        button: {fileID: 0}
+    - rid: 7389483437457670370
+      type: {class: ButtonParameter, ns: Fluss, asm: Assembly-CSharp}
+      data:
+        guid: 3241f318-9bb1-47a1-95a9-d07a0a62da96
+        name: Rot
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 7389483437457670371
+        val: {fileID: 0}
+    - rid: 7389483437457670371
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 3241f318-9bb1-47a1-95a9-d07a0a62da96
+    - rid: 7389483437457670376
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: f070232b-85d1-41b5-b946-b34abbe9413c
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: -108.5
+          y: 620
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 3241f318-9bb1-47a1-95a9-d07a0a62da96
+        accessor: 0
